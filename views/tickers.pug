@@ -1,0 +1,22 @@
+h1 #{params.message} - #{params.exchange}
+
+div
+  each data, market in params
+    if market != 'message' && market != 'exchange'
+      h3=market
+      div
+        table(style='width:100%; border: 1px solid black; border-collapse: collapse;')
+          tr(style='border: 1px solid black')
+            th(style='border: 1px solid black') Field
+            th(style='border: 1px solid black') Previous
+            th(style='border: 1px solid black') Current
+          each value, field in data[0]
+            tr
+            if field != 'info'
+              td(style='border: 1px solid black')=field
+              td(style='border: 1px solid black')=value
+              td(style='border: 1px solid black')=data[1][field]
+
+div
+  footer 
+    h5 Christian Barrios

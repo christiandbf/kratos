@@ -1,0 +1,27 @@
+{
+  "name": "monitor-crypto",
+  "version": "1.0.0",
+  "description": "A package to monitor cryptocurrencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Cryptocurrency",
+    "Monitor",
+    "Exchanges",
+    "CCXT"
+  ],
+  "author": "Christian Barrios",
+  "license": "MIT",
+  "dependencies": {
+    "ccxt": "^1.9.231",
+    "dotenv": "^4.0.0",
+    "nodemailer": "^4.3.1",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}

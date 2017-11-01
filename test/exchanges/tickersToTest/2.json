@@ -1,0 +1,83 @@
+{
+    "1ST/BTC": {
+        "symbol": "1ST/BTC",
+        "timestamp": 1508978802577,
+        "datetime": "2017-10-26T00:46:42.577Z",
+        "high": 0.00005185,
+        "low": 0.000046,
+        "bid": 0.000046,
+        "ask": 0.0000462,
+        "last": 0.000060,
+        "baseVolume": 618641.26320781,
+        "quoteVolume": 30.53038882,
+        "info": {
+            "MarketName": "BTC-1ST",
+            "High": 0.00005185,
+            "Low": 0.000046,
+            "Volume": 618641.26320781,
+            "Last": 0.000046,
+            "BaseVolume": 30.53038882,
+            "TimeStamp": "2017-10-26T00:46:42.577",
+            "Bid": 0.000046,
+            "Ask": 0.0000462,
+            "OpenBuyOrders": 172,
+            "OpenSellOrders": 5893,
+            "PrevDay": 0.00005184,
+            "Created": "2017-06-06T01:22:35.727"
+        }
+    },
+    "2GIVE/BTC": {
+        "symbol": "2GIVE/BTC",
+        "timestamp": 1508978111123,
+        "datetime": "2017-10-26T00:35:11.123Z",
+        "high": 0.000001,
+        "low": 8.5e-7,
+        "bid": 9.1e-7,
+        "ask": 9.3e-7,
+        "last": 8e-7,
+        "baseVolume": 12044250.51260313,
+        "quoteVolume": 11.55566148,
+        "info": {
+            "MarketName": "BTC-2GIVE",
+            "High": 0.000001,
+            "Low": 8.5e-7,
+            "Volume": 12044250.51260313,
+            "Last": 9.1e-7,
+            "BaseVolume": 11.55566148,
+            "TimeStamp": "2017-10-26T00:35:11.123",
+            "Bid": 9.1e-7,
+            "Ask": 9.3e-7,
+            "OpenBuyOrders": 151,
+            "OpenSellOrders": 2296,
+            "PrevDay": 8.9e-7,
+            "Created": "2016-05-16T06:44:15.287"
+        }
+    },
+    "ABY/BTC": {
+        "symbol": "ABY/BTC",
+        "timestamp": 1508978255800,
+        "datetime": "2017-10-26T00:37:35.800Z",
+        "high": 0.00000117,
+        "low": 0.00000104,
+        "bid": 0.00000106,
+        "ask": 0.00000108,
+        "last": 0.00000106,
+        "baseVolume": 6725685.41199145,
+        "quoteVolume": 7.38180181,
+        "info": {
+            "MarketName": "BTC-ABY",
+            "High": 0.00000117,
+            "Low": 0.00000104,
+            "Volume": 6725685.41199145,
+            "Last": 0.00000106,
+            "BaseVolume": 7.38180181,
+            "TimeStamp": "2017-10-26T00:37:35.8",
+            "Bid": 0.00000106,
+            "Ask": 0.00000108,
+            "OpenBuyOrders": 238,
+            "OpenSellOrders": 4912,
+            "PrevDay": 0.00000114,
+            "Created": "2014-10-31T01:43:25.743"
+        }
+    }
+}
